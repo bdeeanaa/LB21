@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Чихуахуа</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <script language="JavaScript" type="text/JavaScript">
+            function hello() {
+                id=window.open("". "example". "width=400, height=150");
+                id.focus(); id.document.open();
+                id.document.write("<Н1>Привет! </H1>");
+                id.document.write("<HR><FORM>");
+                id.document.write("<INPUT TYPE=button VALUE='Закрыть окно' ");
+                id.document.write("onClick='window.opener.focus(); window.close(); '>");
+                id.document.close();
+            }
+
+</script>
+         <style type="text/css">
+            body 
+            {
+                background-color: #E5CAAE;
+                color: #4D3316;
+                font-family: 'Oswald', sans-serif;
+            }
+            h1
+            {
+                font-size: 80px;
+                position: absolute;
+                top: -30;
+                left: 530;
+                width: 100%;
+                height: 150;
+                
+            }
+             img:hover
+             {
+                 transform: scale(0.8) translate(0%, -10%);
+             }
+
+            img
+            {
+                border: 5px solid #4D3316;
+                transition: 0.5s;
+            }
+            #img1
+            {
+                position: absolute;
+                top: 160; 
+                left: 150;
+                
+            }
+            #img2
+            {
+                position: absolute; 
+                left: 340;
+                top: 480;
+            }
+            #img3
+            {
+                position: absolute;
+                left: 620;
+                top: 160;
+            }
+            #list
+             {
+                 position: absolute;
+                 top: 800;
+                 left: 20;
+                 width: 1200;
+                 font-size: 25px;
+             }
+             form
+             {
+                 position: absolute;
+                 top: 1050;
+             }
+        </style> 
+    </head>
+    <body>
+        <h1>Чихуахуа</h1>
+        <div id="img1">
+            <img src="1.jpg" height="300" width="450">
+        </div>
+        <div id="img2">
+            <img src="2.jpg" height="300" width="649">
+        </div>
+        <div id="img3">
+            <img src="3.jpg" height="300" width="503">
+        </div>
+        <div id="list">
+            <il>
+              <li><i>Чихуахуа</i> — собака-компаньон. Носит имя мексиканского штата Чиуауа. Есть предположение, что предки этой собаки жили в дикой природе, и в эпоху цивилизации тольтеков были одомашнены ими. Имеет компактный корпус и отличается бойким и смелым характером.</li>
+              <li>У породы чихуахуа есть ряд достоинств и преимуществ перед другими миниатюрными собаками: крепкое здоровье, высокий интеллект, контактность и покладистый характер.</li>
+              <li> Кинологи утверждают, что эта порода занимает одно из самых значительных мест в истории древнего и современного собаководства. </li>
+            </il>
+        </div>
+        <form name="f2">
+            <input type="button" value="Нажмите сюда, чтобы узнать еще один факт"
+                onclick="window.alert('Чихуахуа - самая маленькая порода собак'); "><br /><br />
+        </form>
+    </body>
+</html>
